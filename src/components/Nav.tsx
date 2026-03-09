@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, X, Terminal, Download } from "lucide-react";
 
 const navItems = [
   { label: "DOSSIER", href: "#about" },
@@ -52,6 +52,14 @@ export default function Nav() {
                 {item.label}
               </a>
             ))}
+            <a
+              href="/Tyler_Lucchi_Resume.docx"
+              download
+              className="ml-2 px-3 py-1.5 text-xs font-jetbrains text-accent-gold hover:text-bg-primary hover:bg-accent-gold transition-colors border border-accent-gold/40 rounded flex items-center gap-1.5"
+            >
+              <Download size={12} />
+              RESUME
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -82,6 +90,14 @@ export default function Nav() {
                 {item.label}
               </a>
             ))}
+            <a
+              href="/Tyler_Lucchi_Resume.docx"
+              download
+              className="block px-3 py-2 text-sm font-jetbrains text-accent-gold hover:text-accent-gold/80 transition-colors flex items-center gap-1.5"
+            >
+              <Download size={14} />
+              RESUME
+            </a>
           </div>
         </motion.div>
       )}

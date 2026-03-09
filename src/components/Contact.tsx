@@ -1,7 +1,7 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
-import { Mail, Phone, Linkedin, Github, Instagram, Globe, ExternalLink } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Instagram, Globe, ExternalLink, Download } from "lucide-react";
 
 const links = [
   { icon: Mail, label: "Email", value: "tylucchi@gmail.com", href: "mailto:tylucchi@gmail.com" },
@@ -43,6 +43,21 @@ export default function Contact() {
               </div>
             </a>
           ))}
+        </div>
+
+        {/* Resume download */}
+        <div className="mt-6 flex justify-center">
+          <a
+            href="/Tyler_Lucchi_Resume.docx"
+            download
+            className="glow-card rounded-lg bg-bg-card px-6 py-3 flex items-center gap-3 group hover:bg-bg-hover hover:border-accent-gold/40 transition-all"
+          >
+            <Download size={18} className="text-accent-gold" />
+            <div>
+              <p className="text-sm font-outfit font-semibold text-text-primary group-hover:text-accent-gold transition-colors">Download Resume</p>
+              <p className="text-xs font-jetbrains text-text-muted">.docx</p>
+            </div>
+          </a>
         </div>
       </AnimatedSection>
 
