@@ -30,7 +30,7 @@ const ventures = [
     statusColor: "text-accent-green",
     dotColor: "bg-accent-green",
     role: "Founder",
-    platform: "Pinterest (@havenandhomeco)",
+    platform: "Pinterest (@havenandhomeco) / Instagram (@havenandhomecompany)",
     url: "havenandhome.live",
     description:
       "Faceless Pinterest affiliate brand in the home decor and organization niche. I'm targeting women aged 35 to 55 with curated product recommendations. Revenue comes through Amazon Associates, LTK, and ShareASale. I built it from zero to 130+ pins and 56 blog posts in a single weekend sprint.",
