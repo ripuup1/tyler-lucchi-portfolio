@@ -87,25 +87,64 @@ export default function About() {
             href="https://github.com/ripuup1"
             target="_blank"
             rel="noopener noreferrer"
-            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 flex flex-col items-center justify-center gap-3 group hover:bg-bg-hover transition-all"
+            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 group hover:bg-bg-hover transition-all block"
           >
-            <Github size={32} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
-            <div className="text-center">
-              <h3 className="font-outfit font-semibold text-text-primary text-lg">GitHub</h3>
-              <p className="font-jetbrains text-xs text-text-muted mt-1">ripuup1</p>
+            <h3 className="font-outfit font-semibold text-lg text-text-primary mb-4">GitHub</h3>
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 rounded-full bg-bg-hover flex items-center justify-center border border-accent-blue/20 group-hover:border-accent-gold/40 transition-colors">
+                <Github size={20} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
+              </div>
+              <div>
+                <p className="font-outfit font-semibold text-sm text-text-primary">ripuup1</p>
+                <p className="font-jetbrains text-xs text-text-muted">Open source & projects</p>
+              </div>
             </div>
+            <div className="space-y-1.5 mt-3 pt-3 border-t border-accent-blue/10">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-green" />
+                <span className="font-jetbrains text-xs text-text-muted">tyler-lucchi-portfolio</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-blue" />
+                <span className="font-jetbrains text-xs text-text-muted">globemap</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-gold" />
+                <span className="font-jetbrains text-xs text-text-muted">haven-and-home</span>
+              </div>
+            </div>
+            <p className="font-jetbrains text-xs text-accent-blue mt-3 group-hover:text-accent-gold transition-colors">View Profile &rarr;</p>
           </a>
           <a
             href="https://instagram.com/lucchityler"
             target="_blank"
             rel="noopener noreferrer"
-            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 flex flex-col items-center justify-center gap-3 group hover:bg-bg-hover transition-all"
+            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 group hover:bg-bg-hover transition-all block"
           >
-            <Instagram size={32} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
-            <div className="text-center">
-              <h3 className="font-outfit font-semibold text-text-primary text-lg">Instagram</h3>
-              <p className="font-jetbrains text-xs text-text-muted mt-1">@lucchityler</p>
+            <h3 className="font-outfit font-semibold text-lg text-text-primary mb-4">Instagram</h3>
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 rounded-full bg-bg-hover flex items-center justify-center border border-accent-blue/20 group-hover:border-accent-gold/40 transition-colors">
+                <Instagram size={20} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
+              </div>
+              <div>
+                <p className="font-outfit font-semibold text-sm text-text-primary">@lucchityler</p>
+                <p className="font-jetbrains text-xs text-text-muted">Personal</p>
+              </div>
             </div>
+            <div className="mt-3 pt-3 border-t border-accent-blue/10">
+              <div className="grid grid-cols-3 gap-2">
+                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
+                  <span className="text-accent-blue/30 text-lg">&#9632;</span>
+                </div>
+                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
+                  <span className="text-accent-gold/30 text-lg">&#9632;</span>
+                </div>
+                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
+                  <span className="text-accent-green/30 text-lg">&#9632;</span>
+                </div>
+              </div>
+            </div>
+            <p className="font-jetbrains text-xs text-accent-blue mt-3 group-hover:text-accent-gold transition-colors">Follow &rarr;</p>
           </a>
         </div>
       </AnimatedSection>
