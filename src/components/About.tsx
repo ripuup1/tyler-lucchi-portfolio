@@ -2,7 +2,7 @@
 
 import AnimatedSection from "./AnimatedSection";
 import LinkedInBadge from "./LinkedInBadge";
-import { MapPin, GraduationCap, Target, Shield } from "lucide-react";
+import { MapPin, GraduationCap, Target, Shield, Github, Instagram } from "lucide-react";
 
 export default function About() {
   return (
@@ -79,9 +79,35 @@ export default function About() {
         </AnimatedSection>
       </div>
 
-      {/* LinkedIn Badge */}
+      {/* Socials */}
       <AnimatedSection className="mt-6 sm:mt-8" delay={0.3}>
-        <LinkedInBadge />
+        <div className="grid sm:grid-cols-3 gap-5 sm:gap-6">
+          <LinkedInBadge />
+          <a
+            href="https://github.com/ripuup1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 flex flex-col items-center justify-center gap-3 group hover:bg-bg-hover transition-all"
+          >
+            <Github size={32} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
+            <div className="text-center">
+              <h3 className="font-outfit font-semibold text-text-primary text-lg">GitHub</h3>
+              <p className="font-jetbrains text-xs text-text-muted mt-1">ripuup1</p>
+            </div>
+          </a>
+          <a
+            href="https://instagram.com/lucchityler"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 flex flex-col items-center justify-center gap-3 group hover:bg-bg-hover transition-all"
+          >
+            <Instagram size={32} className="text-accent-blue group-hover:text-accent-gold transition-colors" />
+            <div className="text-center">
+              <h3 className="font-outfit font-semibold text-text-primary text-lg">Instagram</h3>
+              <p className="font-jetbrains text-xs text-text-muted mt-1">@lucchityler</p>
+            </div>
+          </a>
+        </div>
       </AnimatedSection>
     </section>
   );

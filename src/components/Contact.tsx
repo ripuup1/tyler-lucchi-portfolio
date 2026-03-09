@@ -8,7 +8,7 @@ const links = [
   { icon: Phone, label: "Phone", value: "(201) 628-6860", href: "tel:+12016286860" },
   { icon: Linkedin, label: "LinkedIn", value: "tyler-lucchi", href: "https://linkedin.com/in/tyler-lucchi" },
   { icon: Github, label: "GitHub", value: "ripuup1", href: "https://github.com/ripuup1" },
-  { icon: Instagram, label: "Instagram", value: "@tylerlucchi", href: "https://instagram.com/tylerlucchi" },
+  { icon: Instagram, label: "Instagram", value: "@lucchityler", href: "https://instagram.com/lucchityler" },
   { icon: Globe, label: "LuminArch", value: "luminarch.pro", href: "https://luminarch.pro" },
   { icon: ExternalLink, label: "Haven & Home", value: "havenandhome.live", href: "https://havenandhome.live" },
 ];
