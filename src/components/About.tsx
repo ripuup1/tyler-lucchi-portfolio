@@ -1,6 +1,7 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
+import LinkedInBadge from "./LinkedInBadge";
 import { MapPin, GraduationCap, Target, Shield } from "lucide-react";
 
 export default function About() {
@@ -77,6 +78,11 @@ export default function About() {
           </div>
         </AnimatedSection>
       </div>
+
+      {/* LinkedIn Badge */}
+      <AnimatedSection className="mt-6 sm:mt-8" delay={0.3}>
+        <LinkedInBadge />
+      </AnimatedSection>
     </section>
   );
 }
