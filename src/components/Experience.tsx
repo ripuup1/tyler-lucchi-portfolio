@@ -12,11 +12,11 @@ const entries = [
     location: "Wilmington, NC",
     bullets: [
       "Co-founded a custom web development agency with Davis Olson",
-      "Design and develop production-grade Next.js websites for small businesses, pricing from $500 to $5,000+",
+      "Design and develop production-grade Next.js websites for small businesses",
       "Manage the full project lifecycle from client consultation and competitive research through design, development, deployment, DNS migration, and ongoing maintenance",
       "Built a prospect pipeline of 75+ local businesses through door-to-door outreach, SEO audits, and spec-site demos",
-      "Negotiated a $5,000 nonprofit website redesign contract with Moms Across America including $150/month maintenance",
-      "Clients include MDN Cabinets ($1,500 contract), Diana May Realty, EBMM Attorneys, and more",
+      "Negotiated a $5,000+ nonprofit website redesign contract with Moms Across America including monthly maintenance",
+      "Clients include MDN Cabinets ($1,000+ contract), Diana May Realty, EBMM Attorneys, and more",
     ],
   },
   {

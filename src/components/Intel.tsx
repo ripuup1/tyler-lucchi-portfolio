@@ -1,20 +1,21 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
-import { Trophy, Handshake, Target, Zap, Users, GraduationCap, Plane, Heart, Shield, Award, UserCheck, Star } from "lucide-react";
+import { Trophy, Handshake, Target, Zap, Users, GraduationCap, Plane, Heart, Shield, Award, UserCheck, Star, Home } from "lucide-react";
 
 const achievements = [
   { icon: Star, label: "TRUIST FELLOW", description: "Selected as one of four UNCW students for the Truist Capitalism and Ethics Fellowship to study Milton Friedman's work at Capitaf in Vermont", color: "text-accent-gold" },
   { icon: Trophy, label: "AHS COACHES AWARD", description: "Awarded to one male athlete per year, voted on by the entire Apex High School coaching staff for greatest leadership, dedication, desire, and effort (Apr 2024)", color: "text-accent-gold" },
   { icon: Award, label: "COUGAR AWARD", description: "Men's Lacrosse Cougar Award for most dedication to the team (Jun 2024)", color: "text-accent-gold" },
-  { icon: Trophy, label: "FIRST CLIENT", description: "Closed MDN Cabinets ($1,500) within the first week of launching LuminArch", color: "text-accent-green" },
-  { icon: Handshake, label: "NONPROFIT DEAL", description: "Negotiated a $5,000 website contract with Moms Across America, a national nonprofit", color: "text-accent-green" },
+  { icon: Trophy, label: "FIRST CLIENT", description: "Closed MDN Cabinets ($1,000+) within the first week of launching LuminArch", color: "text-accent-green" },
+  { icon: Handshake, label: "NONPROFIT DEAL", description: "Negotiated a $5,000+ website contract with Moms Across America, a national nonprofit", color: "text-accent-green" },
   { icon: Target, label: "SPEC SITE STRATEGY", description: "Pioneered a sales approach of building demo websites for prospects before pitching, closing at dramatically higher rates than cold outreach alone", color: "text-accent-blue" },
   { icon: Zap, label: "WEEKEND WARRIOR", description: "Launched Haven & Home Pinterest affiliate brand from zero to 130+ pins and 56 blog posts in a single weekend", color: "text-accent-green" },
   { icon: Users, label: "75 DEEP", description: "Built a prospect pipeline of 75+ Wilmington businesses through in-person door-to-door outreach", color: "text-accent-blue" },
   { icon: GraduationCap, label: "3.7 GPA", description: "Maintaining Dean's List while running a business, working part-time, and leading organizations", color: "text-accent-green" },
   { icon: Plane, label: "ITALY x2", description: "Traveled to Italy twice to teach English to Italian students through Speak Teens, spending 7 to 10 hours a day for two weeks each trip", color: "text-accent-blue" },
   { icon: Heart, label: "BEDS FOR KIDS", description: "Helped raise over $5,000 and build beds for children in need through Sleep in Heavenly Peace", color: "text-accent-green" },
+  { icon: Home, label: "HABITAT", description: "Volunteered with Habitat for Humanity laying sod for multiple houses in a community over the course of a day (Mar 2026)", color: "text-accent-green" },
   { icon: Shield, label: "CAPTAIN x3", description: "Three-year varsity lacrosse captain at Apex High School", color: "text-accent-gold" },
   { icon: UserCheck, label: "CEN MENTEE", description: "Selected for Cameron Executive Network mentorship with Tim Allen, Senior Technology Executive at nCino", color: "text-accent-blue" },
 ];

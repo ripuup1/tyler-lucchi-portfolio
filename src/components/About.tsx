@@ -63,16 +63,16 @@ export default function About() {
             <h3 className="font-outfit font-semibold text-lg text-text-primary mb-4">Bio</h3>
             <div className="space-y-4 text-sm text-text-body leading-relaxed">
               <p>
-                I&apos;m a junior at UNC Wilmington studying Economics with a Pre-Law minor, running a web development agency, and building multiple revenue streams all at the same time. I&apos;m set to graduate a year early.
+                I&apos;m a junior at UNC Wilmington studying Economics with a Pre-Law minor, and I&apos;m on track to graduate a year early. Between classes I run LuminArch Digital Agency, a web development company I founded in early 2026, and I&apos;m building multiple revenue streams on the side.
               </p>
               <p>
-                I started LuminArch Digital Agency in early 2026 after seeing how many small businesses were getting hit with $10,000 to $30,000 quotes from agencies for websites that weren&apos;t even that good. We build custom Next.js sites at a fraction of the cost, and we&apos;ve already landed multiple paying clients including commercial cabinetry companies, national nonprofits, law firms, and real estate professionals.
+                I started LuminArch after seeing how many small businesses were getting quoted $10,000 to $30,000 by agencies for websites that weren&apos;t even that good. We build custom Next.js sites at a fraction of that cost and we&apos;ve already landed multiple paying clients including commercial cabinetry companies, a national nonprofit, law firms, and real estate professionals.
               </p>
               <p>
-                My path here hasn&apos;t been a straight line. I came into college as a Biomedical Engineering major, switched to AI Engineering my second semester freshman year, and then pivoted again to Economics with a Pre-Law minor. I lost my dad during my junior year of high school. I worked restaurant and service jobs to build work ethic. I was a three-year varsity lacrosse captain and won the AHS Coaches Award, which is given to one male athlete per year as voted on by the entire coaching staff. I traveled to Italy twice to teach English through Speak Teens, and I helped raise over $5,000 and build beds for kids in need through Sleep in Heavenly Peace.
+                My path here hasn&apos;t been a straight line. I came into college as a Biomedical Engineering major, switched to AI Engineering my second semester freshman year, and then pivoted again to Economics with a Pre-Law minor. I lost my dad to cancer during my junior year of high school, and honestly that changed the way I look at time and what I do with it. I picked up restaurant and service jobs to stay busy and build work ethic. I captained my varsity lacrosse team for three years and won the AHS Coaches Award, which is given to one male athlete per year as voted on by the entire coaching staff. I traveled to Italy twice to teach English through Speak Teens, helped raise over $5,000 and build beds for kids in need through Sleep in Heavenly Peace, and I&apos;ve been to over 40 states across the country.
               </p>
               <p>
-                I don&apos;t just study business, I run one. I don&apos;t just talk about AI, I build with it. And I&apos;m not waiting until after graduation to get started.
+                These days I spend most of my time building. Websites, businesses, systems, whatever the problem calls for. I use AI as a core part of how I work, not as a novelty, and I&apos;m not planning on waiting until after graduation to see what I can do with it.
               </p>
             </div>
           </div>

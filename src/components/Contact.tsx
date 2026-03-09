@@ -10,7 +10,7 @@ const links = [
   { icon: Github, label: "GitHub", value: "ripuup1", href: "https://github.com/ripuup1" },
   { icon: Instagram, label: "Instagram", value: "@tylerlucchi", href: "https://instagram.com/tylerlucchi" },
   { icon: Globe, label: "LuminArch", value: "luminarch.pro", href: "https://luminarch.pro" },
-  { icon: ExternalLink, label: "Haven & Home", value: "haven-and-home.vercel.app", href: "https://haven-and-home.vercel.app" },
+  { icon: ExternalLink, label: "Haven & Home", value: "havenandhome.live", href: "https://havenandhome.live" },
 ];
 
 export default function Contact() {

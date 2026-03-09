@@ -56,6 +56,11 @@ const categories: SkillCategory[] = [
       { name: "Public Speaking", level: "Intermediate", percent: 65 },
       { name: "Cross-cultural Communication", level: "Intermediate", percent: 65 },
       { name: "Team Management", level: "Advanced", percent: 80 },
+      { name: "Problem Solving", level: "Advanced", percent: 85 },
+      { name: "Adaptability", level: "Advanced", percent: 80 },
+      { name: "Networking & Relationship Building", level: "Intermediate", percent: 70 },
+      { name: "Time Management", level: "Advanced", percent: 85 },
+      { name: "Conflict Resolution", level: "Intermediate", percent: 60 },
     ],
   },
 ];

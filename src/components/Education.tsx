@@ -14,7 +14,7 @@ const programs = [
   "Truist Capitalism and Ethics Fellowship: Selected as one of four UNCW students to study 'Free to Choose' and 'Capitalism and Freedom' at Capitaf, Milton Friedman's former summer home in Vermont (May 2026)",
   "Cameron Executive Network (CEN) Mentorship Program: Matched with Tim Allen, Senior Technology Executive at nCino (publicly traded fintech, Wilmington HQ)",
   "Truist Capitalism Speaker Series at UNCW including meet-and-greets and dinners with guest speakers",
-  "Applied to Live Oak Bank Loan Operations Internship (part-time, $20-$32/hr)",
+  "Investment Banking Club, UNCW",
 ];
 
 export default function Education() {
