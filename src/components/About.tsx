@@ -131,17 +131,18 @@ export default function About() {
                 <p className="font-jetbrains text-xs text-text-muted">Personal</p>
               </div>
             </div>
-            <div className="mt-3 pt-3 border-t border-accent-blue/10">
-              <div className="grid grid-cols-3 gap-2">
-                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
-                  <span className="text-accent-blue/30 text-lg">&#9632;</span>
-                </div>
-                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
-                  <span className="text-accent-gold/30 text-lg">&#9632;</span>
-                </div>
-                <div className="aspect-square rounded bg-bg-hover border border-accent-blue/10 flex items-center justify-center">
-                  <span className="text-accent-green/30 text-lg">&#9632;</span>
-                </div>
+            <div className="space-y-1.5 mt-3 pt-3 border-t border-accent-blue/10">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-green" />
+                <span className="font-jetbrains text-xs text-text-muted">Life in Wilmington</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-blue" />
+                <span className="font-jetbrains text-xs text-text-muted">Travel & adventures</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-accent-gold" />
+                <span className="font-jetbrains text-xs text-text-muted">Behind the scenes</span>
               </div>
             </div>
             <p className="font-jetbrains text-xs text-accent-blue mt-3 group-hover:text-accent-gold transition-colors">Follow &rarr;</p>

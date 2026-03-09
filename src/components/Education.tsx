@@ -6,7 +6,11 @@ import { GraduationCap, BookOpen, Users } from "lucide-react";
 const coursework = [
   "ECN 322: Intermediate Macroeconomics (GDP accounting, Cobb-Douglas production, loanable funds, quantity theory of money, Fisher equation)",
   "Constitutional Law (Establishment Clause, Second Amendment, First Amendment speech doctrine, judicial review)",
+  "Global Economics",
+  "Comparative Economics",
   "Labor Economics",
+  "Calculus I & II with Analytical Geometry",
+  "Physics",
   "Public Speaking",
 ];
 

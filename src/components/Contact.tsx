@@ -46,16 +46,18 @@ export default function Contact() {
         </div>
 
         {/* Resume download */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-8 flex justify-center">
           <a
             href="/Tyler_Lucchi_Resume.docx"
             download
-            className="glow-card rounded-lg bg-bg-card px-6 py-3 flex items-center gap-3 group hover:bg-bg-hover hover:border-accent-gold/40 transition-all"
+            className="glow-card rounded-lg bg-bg-card px-8 sm:px-12 py-4 sm:py-5 flex items-center gap-4 group hover:bg-bg-hover hover:border-accent-gold/50 transition-all border border-accent-gold/20"
           >
-            <Download size={18} className="text-accent-gold" />
+            <div className="w-12 h-12 rounded-full bg-accent-gold/10 flex items-center justify-center border border-accent-gold/30 group-hover:bg-accent-gold/20 transition-colors">
+              <Download size={22} className="text-accent-gold" />
+            </div>
             <div>
-              <p className="text-sm font-outfit font-semibold text-text-primary group-hover:text-accent-gold transition-colors">Download Resume</p>
-              <p className="text-xs font-jetbrains text-text-muted">.docx</p>
+              <p className="text-base sm:text-lg font-outfit font-bold text-text-primary group-hover:text-accent-gold transition-colors">Download Resume</p>
+              <p className="text-xs font-jetbrains text-text-muted">Tyler_Lucchi_Resume.docx</p>
             </div>
           </a>
         </div>
