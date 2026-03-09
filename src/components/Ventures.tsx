@@ -14,11 +14,11 @@ const ventures = [
     coOwner: "Davis Olson",
     url: "luminarch.pro",
     description:
-      "Custom web development agency specializing in Next.js websites for small businesses. Full-stack builds from design through deployment on Vercel. Clients include commercial contractors, nonprofits, law firms, real estate professionals, restaurants, and retail businesses.",
+      "Custom web development agency specializing in Next.js websites for small businesses. We handle everything from design through deployment on Vercel. Our clients range from commercial contractors and nonprofits to law firms, real estate professionals, restaurants, and retail businesses.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel", "GitHub", "Figma", "Claude Code"],
     highlights: [
       "Multiple paying clients in first month of operation",
-      "Spec-site sales strategy — build the site first, sell second",
+      "Spec-site sales strategy: build the site first, sell second",
       "75+ prospect pipeline built through door-to-door outreach",
       "Demo sites built for: MDN Cabinets, Moms Across America, Diana May Realty, EBMM Attorneys, Rocco's Cigar Bar, RLS-NC, Island Burgers, Soul Flavor Kitchen, Ocean View Restaurant",
     ],
@@ -31,10 +31,11 @@ const ventures = [
     dotColor: "bg-accent-green",
     role: "Founder",
     platform: "Pinterest (@havenandhomeco)",
+    url: "haven-and-home.vercel.app",
     description:
-      "Faceless Pinterest affiliate brand in the home decor and organization niche. Targeting women aged 35–55 with curated product recommendations. Revenue through Amazon Associates, LTK, and ShareASale. Built from zero to 130+ pins and 56 blog posts in a single weekend launch sprint.",
+      "Faceless Pinterest affiliate brand in the home decor and organization niche. I'm targeting women aged 35 to 55 with curated product recommendations. Revenue comes through Amazon Associates, LTK, and ShareASale. I built it from zero to 130+ pins and 56 blog posts in a single weekend sprint.",
     revenueModel: "Affiliate commissions (Amazon Associates), future Shopify store",
-    goal: "Scale to $2K–5K/month passive income within 6 months",
+    goal: "Scale to $2K-$5K/month passive income within 6 months",
   },
   {
     icon: Map,
@@ -43,24 +44,25 @@ const ventures = [
     statusColor: "text-accent-gold",
     dotColor: "bg-accent-gold",
     role: "Creator",
+    url: "nextjs-globe.vercel.app",
     description:
-      "Global news visualization project — an interactive 3D globe that surfaces real-time news events geographically. Built with Next.js, Three.js, and Supabase.",
+      "Global news visualization project. It's an interactive 3D globe that surfaces real-time news events geographically. Built with Next.js, Three.js, and Supabase.",
   },
   {
     icon: Bot,
-    name: 'AI Infrastructure — "Vici"',
+    name: 'AI Infrastructure: "Vici"',
     status: "IN DEVELOPMENT",
     statusColor: "text-accent-gold",
     dotColor: "bg-accent-gold",
     role: "Architect",
     description:
-      "Personal AI assistant system built on the OpenClaw framework, paired with Telegram (@Luminarchvici_bot). Named after the Latin 'I conquered.' Designed to be Tyler's Jarvis — handling lead research, scheduling, business intelligence, and task automation across all ventures.",
+      "Personal AI assistant system built on the OpenClaw framework, paired with Telegram (@Luminarchvici_bot). Named after the Latin 'I conquered.' Designed to be my Jarvis, handling lead research, scheduling, business intelligence, and task automation across all my ventures.",
   },
 ];
 
 export default function Ventures() {
   return (
-    <section id="ventures" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="ventures" className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <AnimatedSection>
         <h2 className="font-outfit font-bold text-3xl sm:text-4xl text-text-primary mb-2">
           <span className="text-accent-blue font-jetbrains text-sm font-normal tracking-widest block mb-2">
@@ -71,18 +73,18 @@ export default function Ventures() {
         <div className="h-px bg-gradient-to-r from-accent-blue/50 to-transparent mt-4 mb-12" />
       </AnimatedSection>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-5 sm:gap-6">
         {ventures.map((v, i) => (
           <AnimatedSection key={v.name} delay={i * 0.1}>
-            <div className="glow-card rounded-lg bg-bg-card p-6 h-full flex flex-col">
+            <div className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 h-full flex flex-col">
               <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center gap-3">
-                  <v.icon size={20} className="text-accent-blue" />
-                  <h3 className="font-outfit font-semibold text-lg text-text-primary">{v.name}</h3>
+                <div className="flex items-center gap-3 min-w-0">
+                  <v.icon size={20} className="text-accent-blue shrink-0" />
+                  <h3 className="font-outfit font-semibold text-base sm:text-lg text-text-primary truncate">{v.name}</h3>
                 </div>
-                <span className={`flex items-center gap-1.5 text-xs font-jetbrains ${v.statusColor}`}>
+                <span className={`flex items-center gap-1.5 text-xs font-jetbrains ${v.statusColor} shrink-0 ml-2`}>
                   <span className={`w-2 h-2 rounded-full ${v.dotColor} animate-pulse`} />
-                  {v.status}
+                  <span className="hidden sm:inline">{v.status}</span>
                 </span>
               </div>
 
@@ -116,7 +118,7 @@ export default function Ventures() {
                 <ul className="mt-4 space-y-1.5">
                   {v.highlights.map((h, j) => (
                     <li key={j} className="text-xs text-text-muted flex gap-2">
-                      <span className="text-accent-gold mt-0.5">▸</span>
+                      <span className="text-accent-gold mt-0.5 shrink-0">▸</span>
                       <span>{h}</span>
                     </li>
                   ))}

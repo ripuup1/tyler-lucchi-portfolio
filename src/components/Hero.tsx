@@ -18,8 +18,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center dot-grid scan-lines overflow-hidden">
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+    <section className="relative min-h-screen flex flex-col items-center justify-center dot-grid scan-lines overflow-hidden px-4">
+      <div className="relative z-10 text-center max-w-4xl mx-auto w-full">
         <AnimatePresence mode="wait">
           {phase === 0 && (
             <motion.div
@@ -67,7 +67,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.6 }}
-              className="font-outfit font-black text-5xl sm:text-7xl md:text-8xl text-text-primary text-glow-blue tracking-tight"
+              className="font-outfit font-black text-4xl sm:text-6xl md:text-8xl text-text-primary text-glow-blue tracking-tight"
             >
               TYLER LUCCHI
             </motion.h1>
@@ -76,13 +76,13 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="mt-6 space-y-2"
+              className="mt-4 sm:mt-6 space-y-2"
             >
-              <p className="font-outfit text-lg sm:text-xl text-accent-gold font-medium">
-                Founder & CEO — LuminArch Digital Agency
+              <p className="font-outfit text-base sm:text-xl text-accent-gold font-medium">
+                Founder & CEO, LuminArch Digital Agency
               </p>
-              <p className="font-jetbrains text-sm text-text-muted">
-                Economics & Pre-Law — UNC Wilmington
+              <p className="font-jetbrains text-xs sm:text-sm text-text-muted">
+                Economics & Pre-Law // UNC Wilmington
               </p>
             </motion.div>
 
@@ -90,9 +90,9 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
-              className="mt-8 font-inter text-base sm:text-lg text-text-body max-w-2xl mx-auto leading-relaxed"
+              className="mt-6 sm:mt-8 font-inter text-sm sm:text-lg text-text-body max-w-2xl mx-auto leading-relaxed"
             >
-              I build things. Websites, businesses, systems — whatever the problem needs.
+              I build things. Websites, businesses, systems, whatever the problem needs.
             </motion.p>
           </motion.div>
         )}

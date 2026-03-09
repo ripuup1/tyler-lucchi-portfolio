@@ -1,110 +1,114 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
-import { Briefcase, Dumbbell, ShoppingBag, Wine, Pizza, Languages, Users, Trophy } from "lucide-react";
+import { Briefcase, Dumbbell, ShoppingBag, Wine, Pizza, Languages, Trophy, UtensilsCrossed } from "lucide-react";
 
 const entries = [
   {
     icon: Briefcase,
     role: "Founder & CEO",
     org: "LuminArch Digital Agency",
-    date: "January 2026 – Present",
+    date: "Feb 2026 - Present",
     location: "Wilmington, NC",
     bullets: [
-      "Founded and operate a custom web development agency with co-owner Davis Olson",
-      "Design and develop production-grade Next.js websites for small businesses, pricing from $500–$5,000+",
-      "Manage full project lifecycle: client consultation, competitive research, design, development, deployment, DNS migration, and ongoing maintenance",
-      "Built prospect pipeline of 75+ local businesses through door-to-door outreach, SEO audits, and spec-site demos",
-      "Negotiated $5,000 nonprofit website redesign contract with Moms Across America including $150/month maintenance",
-      "Clients served: MDN Cabinets ($1,500 contract), Diana May Realty, EBMM Attorneys, and more",
+      "Co-founded a custom web development agency with Davis Olson",
+      "Design and develop production-grade Next.js websites for small businesses, pricing from $500 to $5,000+",
+      "Manage the full project lifecycle from client consultation and competitive research through design, development, deployment, DNS migration, and ongoing maintenance",
+      "Built a prospect pipeline of 75+ local businesses through door-to-door outreach, SEO audits, and spec-site demos",
+      "Negotiated a $5,000 nonprofit website redesign contract with Moms Across America including $150/month maintenance",
+      "Clients include MDN Cabinets ($1,500 contract), Diana May Realty, EBMM Attorneys, and more",
     ],
   },
   {
     icon: Dumbbell,
-    role: "Trainer",
-    org: "9Round Kickboxing",
-    date: "2025 – Present",
+    role: "Kickboxing Instructor",
+    org: "9Round Kickboxing Fitness",
+    date: "Jan 2026 - Present",
     location: "Wilmington, NC",
     bullets: [
-      "Lead group kickboxing training sessions for members of all fitness levels",
-      "Motivate and coach clients through high-intensity interval training circuits",
-      "Manage session scheduling, member engagement, and facility upkeep",
+      "Lead high-energy circuit training workouts and ensure safe, effective sessions",
+      "Guide new guests through their first workouts and introduce them to 9Round programs",
+      "Support membership sales and sign-ups through clear communication and positive guest interactions",
+      "Help maintain studio quality and collaborate with the team on smooth daily operations",
     ],
   },
   {
     icon: ShoppingBag,
     role: "Founder",
     org: "Haven & Home Co.",
-    date: "March 2026 – Present",
+    date: "Mar 2026 - Present",
     location: "Pinterest",
     bullets: [
-      "Launched faceless Pinterest affiliate brand from concept to 130+ pins in one weekend",
+      "Launched a faceless Pinterest affiliate brand from concept to 130+ pins in one weekend",
       "Created 56 SEO-optimized blog posts for affiliate link distribution",
       "Monetizing through Amazon Associates, LTK, and ShareASale programs",
     ],
   },
   {
     icon: Wine,
-    role: "Service Staff",
+    role: "Food Runner",
     org: "Figure 8 Yacht Club",
-    date: "Previous",
+    date: "Jun 2025 - Oct 2025",
     location: "Wilmington, NC",
     bullets: [
-      "Provided high-end food and beverage service in a private yacht club setting",
-      "Developed professionalism and attention to detail in a luxury hospitality environment",
+      "Delivered high-quality service in a fast-paced, high-end dining environment",
+      "Coordinated with servers, kitchen staff, and management to ensure timely and accurate food delivery",
+      "Supported front-of-house operations during peak service hours and private events",
     ],
   },
   {
     icon: Pizza,
     role: "Delivery Driver",
     org: "Randy's Pizza",
-    date: "Previous",
-    location: "",
+    date: "Dec 2023 - Jun 2024",
+    location: "Holly Springs, NC",
     bullets: [
-      "Managed delivery logistics, customer interactions, and cash handling",
+      "Verified orders against invoices at delivery to ensure accuracy",
+      "Provided excellent customer service and addressed any questions or concerns about orders",
       "Built work ethic and time management skills while balancing academics",
+    ],
+  },
+  {
+    icon: UtensilsCrossed,
+    role: "Food Runner",
+    org: "Stone & Rail",
+    date: "Dec 2020 - Jul 2021",
+    location: "Glen Rock, NJ",
+    bullets: [
+      "Served food and assisted waitstaff during busy service periods",
+      "Provided attentive customer service and adapted well in fast-paced environments",
     ],
   },
   {
     icon: Languages,
     role: "Volunteer English Teacher",
     org: "Speak Teens",
-    date: "Previous",
+    date: "Two Programs",
     location: "Italy",
     bullets: [
-      "Traveled to Italy to teach English to Italian high school students through an international volunteer exchange",
+      "Participated in two Speak camps as an English teacher for Italian students across the country",
+      "Traveled to Italy for both programs and spent 7 to 10 hours a day for a total of two weeks helping teach English",
       "Developed cross-cultural communication skills and adaptability in an immersive environment",
-    ],
-  },
-  {
-    icon: Users,
-    role: "Vice President",
-    org: "Lambda Chi Alpha Fraternity",
-    date: "Previous",
-    location: "UNCW",
-    bullets: [
-      "Elected Vice President of the UNCW chapter",
-      "Managed organizational operations, member development, and event coordination",
-      "Led a chapter of peers through strategic planning and conflict resolution",
     ],
   },
   {
     icon: Trophy,
     role: "Three-Year Captain",
-    org: "Varsity Lacrosse",
+    org: "Varsity Lacrosse, Apex High School",
     date: "High School",
-    location: "",
+    location: "Apex, NC",
     bullets: [
       "Three-year captain of the varsity lacrosse team",
-      "Led team through practices, games, and off-season development",
-      "Developed leadership, discipline, and competitive drive",
+      "Won the Men's Lacrosse Cougar Award for most dedication to the team (Jun 2024)",
+      "Won the AHS Coaches Award, given to one male athlete per year as voted on by the entire Apex High School coaching staff (Apr 2024)",
+      "Led the team through practices, games, and off-season development",
     ],
   },
 ];
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="experience" className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <AnimatedSection>
         <h2 className="font-outfit font-bold text-3xl sm:text-4xl text-text-primary mb-2">
           <span className="text-accent-blue font-jetbrains text-sm font-normal tracking-widest block mb-2">
@@ -119,10 +123,10 @@ export default function Experience() {
         {/* Timeline line */}
         <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-accent-blue/20" />
 
-        <div className="space-y-12">
+        <div className="space-y-8 sm:space-y-12">
           {entries.map((entry, i) => (
             <AnimatedSection key={i} delay={i * 0.05}>
-              <div className={`relative flex flex-col md:flex-row gap-4 md:gap-8 ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}>
+              <div className={`relative flex flex-col md:flex-row gap-3 md:gap-8 ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}>
                 {/* Dot */}
                 <div className="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-accent-blue border-2 border-bg-primary -translate-x-1.5 mt-1.5 z-10" />
 
@@ -136,15 +140,15 @@ export default function Experience() {
 
                 {/* Content side */}
                 <div className={`md:w-1/2 pl-10 ${i % 2 === 0 ? "md:pl-12" : "md:pr-12 md:pl-0"}`}>
-                  <div className="glow-card rounded-lg bg-bg-card p-5">
+                  <div className="glow-card rounded-lg bg-bg-card p-4 sm:p-5">
                     <div className="flex items-center gap-2 mb-2">
-                      <entry.icon size={16} className="text-accent-blue" />
-                      <h3 className="font-outfit font-semibold text-text-primary">{entry.role}</h3>
+                      <entry.icon size={16} className="text-accent-blue shrink-0" />
+                      <h3 className="font-outfit font-semibold text-text-primary text-sm sm:text-base">{entry.role}</h3>
                     </div>
                     <p className="font-jetbrains text-xs text-text-muted mb-3">{entry.org}</p>
                     <ul className="space-y-1.5">
                       {entry.bullets.map((b, j) => (
-                        <li key={j} className="text-sm text-text-body flex gap-2">
+                        <li key={j} className="text-xs sm:text-sm text-text-body flex gap-2">
                           <span className="text-accent-blue mt-0.5 shrink-0">▸</span>
                           <span>{b}</span>
                         </li>

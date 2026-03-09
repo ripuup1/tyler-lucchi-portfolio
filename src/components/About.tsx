@@ -5,7 +5,7 @@ import { MapPin, GraduationCap, Target, Shield } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="about" className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <AnimatedSection>
         <h2 className="font-outfit font-bold text-3xl sm:text-4xl text-text-primary mb-2">
           <span className="text-accent-blue font-jetbrains text-sm font-normal tracking-widest block mb-2">
@@ -16,10 +16,10 @@ export default function About() {
         <div className="h-px bg-gradient-to-r from-accent-blue/50 to-transparent mt-4 mb-12" />
       </AnimatedSection>
 
-      <div className="grid md:grid-cols-5 gap-8">
-        {/* Left — Profile Card */}
+      <div className="grid md:grid-cols-5 gap-6 sm:gap-8">
+        {/* Profile Card */}
         <AnimatedSection className="md:col-span-2" delay={0.1}>
-          <div className="glow-card rounded-lg bg-bg-card p-6 space-y-5">
+          <div className="glow-card rounded-lg bg-bg-card p-5 sm:p-6 space-y-5">
             <div className="flex items-center justify-between">
               <h3 className="font-outfit font-semibold text-lg text-text-primary">Profile</h3>
               <span className="flex items-center gap-1.5 text-xs font-jetbrains text-accent-green">
@@ -30,19 +30,19 @@ export default function About() {
 
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2 text-text-body">
-                <MapPin size={14} className="text-accent-blue" />
-                Wilmington, NC
+                <MapPin size={14} className="text-accent-blue shrink-0" />
+                Holly Springs, NC / Wilmington, NC
               </div>
               <div className="flex items-center gap-2 text-text-body">
-                <Target size={14} className="text-accent-blue" />
-                Age: 21
+                <Target size={14} className="text-accent-blue shrink-0" />
+                Age: 20
               </div>
               <div className="flex items-center gap-2 text-text-body">
-                <Shield size={14} className="text-accent-gold" />
+                <Shield size={14} className="text-accent-gold shrink-0" />
                 Clearance: <span className="text-accent-gold font-jetbrains text-xs px-2 py-0.5 border border-accent-gold/30 rounded">FOUNDER</span>
               </div>
               <div className="flex items-center gap-2 text-text-body">
-                <GraduationCap size={14} className="text-accent-blue" />
+                <GraduationCap size={14} className="text-accent-blue shrink-0" />
                 GPA: 3.7 / 4.0
               </div>
             </div>
@@ -56,22 +56,22 @@ export default function About() {
           </div>
         </AnimatedSection>
 
-        {/* Right — Bio */}
+        {/* Bio */}
         <AnimatedSection className="md:col-span-3" delay={0.2}>
-          <div className="glow-card rounded-lg bg-bg-card p-6">
+          <div className="glow-card rounded-lg bg-bg-card p-5 sm:p-6">
             <h3 className="font-outfit font-semibold text-lg text-text-primary mb-4">Bio</h3>
             <div className="space-y-4 text-sm text-text-body leading-relaxed">
               <p>
-                Tyler Lucchi is a junior at UNC Wilmington studying Economics with a Pre-Law minor, running a web development agency, and building multiple revenue streams — all at the same time.
+                I&apos;m a junior at UNC Wilmington studying Economics with a Pre-Law minor, running a web development agency, and building multiple revenue streams all at the same time. I&apos;m set to graduate a year early.
               </p>
               <p>
-                He founded LuminArch Digital Agency in early 2026 after recognizing that small businesses were getting crushed by $10,000–$30,000 agency quotes for mediocre template websites. LuminArch builds custom Next.js sites at a fraction of the cost, and has already landed multiple paying clients including commercial cabinetry companies, national nonprofits, law firms, and real estate professionals.
+                I started LuminArch Digital Agency in early 2026 after seeing how many small businesses were getting hit with $10,000 to $30,000 quotes from agencies for websites that weren&apos;t even that good. We build custom Next.js sites at a fraction of the cost, and we&apos;ve already landed multiple paying clients including commercial cabinetry companies, national nonprofits, law firms, and real estate professionals.
               </p>
               <p>
-                Before LuminArch, Tyler&apos;s path was anything but linear. He started college as a Biomedical Engineering major, pivoted to Economics, lost his father during his junior year of high school, worked restaurant and service jobs to build work ethic, became a three-year varsity lacrosse captain, served as Vice President of Lambda Chi Alpha fraternity, traveled to Italy to teach English to students through Speak Teens, and built beds for children in need through Sleep in Heavenly Peace.
+                My path here hasn&apos;t been a straight line. I came into college as a Biomedical Engineering major, switched to AI Engineering my second semester freshman year, and then pivoted again to Economics with a Pre-Law minor. I lost my dad during my junior year of high school. I worked restaurant and service jobs to build work ethic. I was a three-year varsity lacrosse captain and won the AHS Coaches Award, which is given to one male athlete per year as voted on by the entire coaching staff. I traveled to Italy twice to teach English through Speak Teens, and I helped raise over $5,000 and build beds for kids in need through Sleep in Heavenly Peace.
               </p>
               <p>
-                He doesn&apos;t just study business — he runs them. He doesn&apos;t just talk about AI — he builds with it. And he&apos;s not waiting until after graduation to start.
+                I don&apos;t just study business, I run one. I don&apos;t just talk about AI, I build with it. And I&apos;m not waiting until after graduation to get started.
               </p>
             </div>
           </div>

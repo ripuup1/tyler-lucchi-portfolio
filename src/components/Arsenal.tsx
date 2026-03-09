@@ -74,7 +74,7 @@ function barColor(level: string) {
 
 export default function Arsenal() {
   return (
-    <section id="arsenal" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="arsenal" className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <AnimatedSection>
         <h2 className="font-outfit font-bold text-3xl sm:text-4xl text-text-primary mb-2">
           <span className="text-accent-blue font-jetbrains text-sm font-normal tracking-widest block mb-2">
@@ -85,10 +85,10 @@ export default function Arsenal() {
         <div className="h-px bg-gradient-to-r from-accent-blue/50 to-transparent mt-4 mb-12" />
       </AnimatedSection>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-5 sm:gap-6">
         {categories.map((cat, ci) => (
           <AnimatedSection key={cat.title} delay={ci * 0.1}>
-            <div className="glow-card rounded-lg bg-bg-card p-6">
+            <div className="glow-card rounded-lg bg-bg-card p-5 sm:p-6">
               <h3 className="font-jetbrains text-xs tracking-widest text-accent-gold mb-5">
                 {cat.title}
               </h3>
@@ -96,7 +96,7 @@ export default function Arsenal() {
                 {cat.skills.map((skill) => (
                   <div key={skill.name}>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-sm text-text-body font-inter">{skill.name}</span>
+                      <span className="text-xs sm:text-sm text-text-body font-inter">{skill.name}</span>
                       <span className={`text-xs font-jetbrains ${levelColor(skill.level)}`}>
                         {skill.level}
                       </span>
